@@ -1,9 +1,13 @@
-package mvc
+package main
 
 import (
-	"github.com/kissway/golang-test-microservices/mvc/app"
+	"github.com/samykaplan/test-microservices/mvc/app"
 )
 
 func main() {
 	app.StartApp()
+
+	// if err := http.ListenAndServe(":8080", nil); err != nil {
+	// 	log.Fatalln(err)
+	// }
 }
